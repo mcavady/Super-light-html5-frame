@@ -4,7 +4,12 @@
 
 /* reset */
 body {margin:0px;padding:0px;}
-img{margin:0px;padding:0px;}
+img {margin:0px;padding:0px;}
+p {margin:0px;padding:0px;}
+ul {}
+ol {}
+li {}
+h1,h2,h3,h4,h5,h6 {}
 
 /* =================== */
 /* === main styles === */
@@ -27,14 +32,14 @@ img{margin:0px;padding:0px;}
 }
 #sidebar{
 	width:240px;
-	min-height:600px;
+	min-height:500px;
 	float:left;
 	background:#00ff00;
 }
 #main-content{
 	width:100%;
 	float:none;
-	min-height:600px;
+	min-height:500px;
 	background:#0000ff;
 }
 #footer{
@@ -44,3 +49,12 @@ img{margin:0px;padding:0px;}
 	clear:both;
 	background:#000;
 }
+
+/* ===================== */
+/* === media query's === */
+/* ===================== */
+
+@media screen and (min-width: 1080px){
+
+}
+
